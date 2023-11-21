@@ -1,5 +1,5 @@
 # Notion_Agent
-A Notion Agent for Page/DB control and automatic send gmail.
+A Notion Agent for Page/DB control and automatic forwading through Gmail.
 
 ## Main functions:
 1. Support notion Page create, modify and update.
