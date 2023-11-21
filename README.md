@@ -3,7 +3,7 @@ A Notion Agent for Page/DB control and automatic send gmail.
 
 ## Main functions:
 1. Support notion Page create, modify and update.
-2. Avaliable for notion DB data (JSON) download, and information checking.
+2. Avaliable for notion DB query (JSON).
 3. Forward new post Pages (within 5 minutes) through Gmail automatically.
 
 ## Libraries and Depends:
