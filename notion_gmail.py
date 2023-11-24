@@ -25,7 +25,7 @@ headers = {
 }
 
 class notionDBService():
-  def _int_(self):
+  def __init__(self):
     self.pages = []
     self.minute = 5
     self.message =[]
@@ -82,7 +82,7 @@ class notionDBService():
 
 
 class notionPGService():
-  def _int_(self,pageID: str = None,oldContent: str = None,newContent: str = None):
+  def __init__(self,pageID: str = None,oldContent: str = None,newContent: str = None):
     self.pageID = pageID
     self.oldContent = oldContent
     self.newContent = newContent 
@@ -144,7 +144,7 @@ class notionPGService():
     
 
 class emailService():
-  def _int_(self,title,message,emailAddress,refresh_token: str=None,attachemnts: list=[]):
+  def __init__(self,title,message,emailAddress,refresh_token: str=None,attachemnts: list=[]):
     self.title = title
     self.emailAddress = emailAddress
     self.message = message
